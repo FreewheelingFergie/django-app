@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'candidate_app',
     'polls',
     'user_auth',
-    'crispy_forms',# must use pip 'install django-crispy-forms'
-    "crispy_bootstrap5", # must use 'pip install crispy-bootstrap5'
+    #'crispy_forms',# must use pip 'install django-crispy-forms'
+    #"crispy_bootstrap5", # must use 'pip install crispy-bootstrap5'
 ]
 
 MIDDLEWARE = [
