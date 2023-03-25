@@ -12,6 +12,6 @@ RUN pip3 install -r requirements.txt
 
 # Copies all files from same directory
 COPY . .
-
+ 
 # Runs the command line to start server at port 8000
 CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
